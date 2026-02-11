@@ -1,0 +1,100 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="complexGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="450" fill="#f7f9fc"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#2d3748" font-size="32" font-weight="bold">
+    Dual Approach Strategy
+  </text>
+  <text x="400" y="70" text-anchor="middle" fill="#718096" font-size="18">
+    Every Problem • Two Solutions • Complete Analysis
+  </text>
+  
+  <!-- Brute Force Section -->
+  <g transform="translate(80, 120)">
+    <rect width="300" height="280" fill="#fef3c7" stroke="#f59e0b" stroke-width="3" rx="15"/>
+    
+    <text x="150" y="40" text-anchor="middle" fill="#92400e" font-size="24" font-weight="bold">
+      ❌ Brute Force
+    </text>
+    
+    <line x1="30" y1="60" x2="270" y2="60" stroke="#d97706" stroke-width="2"/>
+    
+    <text x="150" y="90" text-anchor="middle" fill="#78350f" font-size="16" font-weight="bold">
+      Nested Loops
+    </text>
+    
+    <rect x="40" y="110" width="220" height="50" fill="#fbbf24" rx="8"/>
+    <text x="150" y="140" text-anchor="middle" fill="white" font-size="18" font-family="monospace">
+      for (i) { for (j) { ... } }
+    </text>
+    
+    <text x="150" y="190" text-anchor="middle" fill="#92400e" font-size="18" font-weight="bold">
+      Time: O(n²)
+    </text>
+    <text x="150" y="215" text-anchor="middle" fill="#92400e" font-size="18" font-weight="bold">
+      Space: O(1)
+    </text>
+    
+    <text x="150" y="250" text-anchor="middle" fill="#78350f" font-size="14">
+      Simple but slow
+    </text>
+    <text x="150" y="270" text-anchor="middle" fill="#78350f" font-size="14">
+      Good for learning
+    </text>
+  </g>
+  
+  <!-- Arrow -->
+  <g transform="translate(400, 260)">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#667eea" stroke-width="4"/>
+    <polygon points="40,0 30,-8 30,8" fill="#667eea"/>
+  </g>
+  
+  <!-- Optimized Section -->
+  <g transform="translate(420, 120)">
+    <rect width="300" height="280" fill="#d1fae5" stroke="#10b981" stroke-width="3" rx="15"/>
+    
+    <text x="150" y="40" text-anchor="middle" fill="#065f46" font-size="24" font-weight="bold">
+      ✅ Optimized
+    </text>
+    
+    <line x1="30" y1="60" x2="270" y2="60" stroke="#059669" stroke-width="2"/>
+    
+    <text x="150" y="90" text-anchor="middle" fill="#064e3b" font-size="16" font-weight="bold">
+      HashMap Lookup
+    </text>
+    
+    <rect x="40" y="110" width="220" height="50" fill="#10b981" rx="8"/>
+    <text x="150" y="135" text-anchor="middle" fill="white" font-size="16" font-family="monospace">
+      map.put(num, index)
+    </text>
+    <text x="150" y="155" text-anchor="middle" fill="white" font-size="16" font-family="monospace">
+      if (map.has(target))...
+    </text>
+    
+    <text x="150" y="190" text-anchor="middle" fill="#065f46" font-size="18" font-weight="bold">
+      Time: O(n)
+    </text>
+    <text x="150" y="215" text-anchor="middle" fill="#065f46" font-size="18" font-weight="bold">
+      Space: O(n)
+    </text>
+    
+    <text x="150" y="250" text-anchor="middle" fill="#064e3b" font-size="14">
+      Fast and efficient
+    </text>
+    <text x="150" y="270" text-anchor="middle" fill="#064e3b" font-size="14">
+      Interview-ready
+    </text>
+  </g>
+  
+  <!-- Bottom note -->
+  <text x="400" y="430" text-anchor="middle" fill="#667eea" font-size="16" font-weight="bold">
+    📊 Full Big-O Analysis Included for Every Solution
+  </text>
+</svg>
