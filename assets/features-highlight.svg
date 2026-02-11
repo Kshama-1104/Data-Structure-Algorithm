@@ -1,0 +1,149 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="featGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="featGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#34d399;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="featGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="featGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="featGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f472b6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="featGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fb923c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="500" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" fill="#1e293b" font-size="36" font-weight="bold">
+    Why This Repository?
+  </text>
+  
+  <!-- Feature 1: Dual Approach -->
+  <g transform="translate(50, 100)">
+    <rect width="220" height="160" fill="url(#featGrad1)" rx="15" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+    <circle cx="110" cy="50" r="35" fill="rgba(255,255,255,0.3)"/>
+    <text x="110" y="40" text-anchor="middle" fill="white" font-size="40">🔀</text>
+    <text x="110" y="100" text-anchor="middle" fill="white" font-size="18" font-weight="bold">
+      Dual Approach
+    </text>
+    <text x="110" y="125" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      Every problem solved
+    </text>
+    <text x="110" y="143" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      both the worst way
+    </text>
+    <text x="110" y="161" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      AND the best way
+    </text>
+  </g>
+  
+  <!-- Feature 2: Complexity Analysis -->
+  <g transform="translate(290, 100)">
+    <rect width="220" height="160" fill="url(#featGrad2)" rx="15" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+    <circle cx="110" cy="50" r="35" fill="rgba(255,255,255,0.3)"/>
+    <text x="110" y="40" text-anchor="middle" fill="white" font-size="40">📊</text>
+    <text x="110" y="100" text-anchor="middle" fill="white" font-size="18" font-weight="bold">
+      Big-O Analysis
+    </text>
+    <text x="110" y="125" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      Time &amp; space complexity
+    </text>
+    <text x="110" y="143" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      annotations on
+    </text>
+    <text x="110" y="161" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      every single method
+    </text>
+  </g>
+  
+  <!-- Feature 3: 10 Topic Modules -->
+  <g transform="translate(530, 100)">
+    <rect width="220" height="160" fill="url(#featGrad3)" rx="15" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+    <circle cx="110" cy="50" r="35" fill="rgba(255,255,255,0.3)"/>
+    <text x="110" y="40" text-anchor="middle" fill="white" font-size="40">🧩</text>
+    <text x="110" y="100" text-anchor="middle" fill="white" font-size="18" font-weight="bold">
+      10 Core Topics
+    </text>
+    <text x="110" y="125" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      Complete coverage of
+    </text>
+    <text x="110" y="143" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      all major interview
+    </text>
+    <text x="110" y="161" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      categories
+    </text>
+  </g>
+  
+  <!-- Feature 4: Custom Implementations -->
+  <g transform="translate(50, 290)">
+    <rect width="220" height="160" fill="url(#featGrad4)" rx="15" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+    <circle cx="110" cy="50" r="35" fill="rgba(255,255,255,0.3)"/>
+    <text x="110" y="40" text-anchor="middle" fill="white" font-size="40">🛠️</text>
+    <text x="110" y="100" text-anchor="middle" fill="white" font-size="18" font-weight="bold">
+      Built from Scratch
+    </text>
+    <text x="110" y="125" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      Custom Stack, Queue,
+    </text>
+    <text x="110" y="143" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      HashMap implementations
+    </text>
+    <text x="110" y="161" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      no libraries!
+    </text>
+  </g>
+  
+  <!-- Feature 5: Practice Problems -->
+  <g transform="translate(290, 290)">
+    <rect width="220" height="160" fill="url(#featGrad5)" rx="15" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+    <circle cx="110" cy="50" r="35" fill="rgba(255,255,255,0.3)"/>
+    <text x="110" y="40" text-anchor="middle" fill="white" font-size="40">🏋️</text>
+    <text x="110" y="100" text-anchor="middle" fill="white" font-size="18" font-weight="bold">
+      Practice Set
+    </text>
+    <text x="110" y="125" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      Curated collection of
+    </text>
+    <text x="110" y="143" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      classic coding interview
+    </text>
+    <text x="110" y="161" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      questions
+    </text>
+  </g>
+  
+  <!-- Feature 6: Study Materials -->
+  <g transform="translate(530, 290)">
+    <rect width="220" height="160" fill="url(#featGrad6)" rx="15" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+    <circle cx="110" cy="50" r="35" fill="rgba(255,255,255,0.3)"/>
+    <text x="110" y="40" text-anchor="middle" fill="white" font-size="40">📝</text>
+    <text x="110" y="100" text-anchor="middle" fill="white" font-size="18" font-weight="bold">
+      Study Notes
+    </text>
+    <text x="110" y="125" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      Handwritten notes
+    </text>
+    <text x="110" y="143" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      and practice sheets for
+    </text>
+    <text x="110" y="161" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13">
+      quick revision
+    </text>
+  </g>
+</svg>
